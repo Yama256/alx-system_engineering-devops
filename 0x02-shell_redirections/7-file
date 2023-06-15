@@ -1,9 +1,2 @@
 #!/bin/bash
-
-file_name='\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'  # File name
-
-# Create the file and write the content
-echo "Best School" > "$file_name"
-
-# Add a new line at the end of the file
-echo >> "$file_name"
+echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
